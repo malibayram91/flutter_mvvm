@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
-import 'package:project/res/colors/AppColors.dart';
-import 'package:project/res/dimentions/AppDimension.dart';
-import 'package:project/res/strings/FrenchStrings.dart';
-import 'package:project/res/strings/Strings.dart';
+import 'package:project/res/colors/app_colors.dart';
+import 'package:project/res/dimentions/app_dimension.dart';
+import 'package:project/res/strings/french_strings.dart';
+import 'package:project/res/strings/strings.dart';
 
-import 'strings/EnglishStrings.dart';
+import 'strings/english_strings.dart';
 
 class Resources {
-  BuildContext _context;
+  final BuildContext _context;
 
   Resources(this._context);
 
@@ -30,7 +30,7 @@ class Resources {
     return AppDimension();
   }
 
-  static Resources of(BuildContext context){
+  static Resources of(BuildContext context) {
     return Resources(context);
   }
 }

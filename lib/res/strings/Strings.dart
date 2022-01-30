@@ -4,4 +4,6 @@ abstract class Strings {
   String get movieDetailScreen;
   String get titleCategories;
   String get titleCast;
+  String get helloString;
+  String get route;
 }
